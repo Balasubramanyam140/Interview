@@ -1,0 +1,7 @@
+1) Tell me about your Spring Boot experience”
+    
+   * “I have around 2 years of experience in Java and Spring Boot, where I worked mainly on developing and maintaining RESTful APIs.
+      In Spring Boot, I was involved in controller, service, and repository layers. I implemented CRUD operations, integrated Spring Data JPA 
+      with relational databases, handled request validation, exception handling, and ensured proper HTTP status codes using ResponseEntity.
+   * I have also worked with application.properties profiles, DTO mapping, and basic Spring Security concepts.  I followed layered architecture and focused on 
+      writing clean, maintainable code.”
