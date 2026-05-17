@@ -15,17 +15,19 @@
         ex :
               () -> { S.O.P ("Hello");
                    or
-              () -> S.O.P("Hello");
+              () -> S.O.P("Hello");     -> when contains only one statement
 
         ex :
               (int a, int b) -> {S.O.P(a+b);
                         or
-              ( a , b) -> S.O.P(a+b);
+              ( a , b) -> S.O.P(a+b);       -> when contains only one statement
 
         ex :
               ( String s) -> {return s.length();}
                           or
-               (s)->  s.length();
+               (s)->  s.length();       -> when contains only one statement
+                           or
+                  s -> s.length();        -> when contains only one statement
               
 3) LAmda exp uses
       1- To enabke functional programming in java.
