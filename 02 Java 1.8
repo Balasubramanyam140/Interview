@@ -42,7 +42,16 @@
       4) Usually we can specify the type of parameter of compilter expect the ty[e based on context, then we can remove type[ Type Inference}
             ex:
                   (int a, int b) -> s.o.p(a+b); => (a,b)->s.o.p(a+b);
-            
+      5) Similar to method body, lamda exp body can contain any number of statements. If multiple statements are there then we should enclose within curly braces.
+      ex: 
+            () -> {
+                        statement 1;
+                        statement 2;
+                        statement 3;
+                  }
+        * If body contains only one statement then curly braces are optional
+              () -> s.o.p("Helloo");
+              
 3) LAmda exp uses
       1- To enable functional programming in java.
       2- Write more readable , maintainable and concise code.
