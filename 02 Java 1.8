@@ -63,4 +63,21 @@
 
 
 4) Functional Interface
-      
+      If the interface contain only single abstract method is called funtional Interface.
+      Runnable -> conatins only run() method
+      Callablle -> contains only call() method
+      ActionListener -> conatins only actionPerformed()
+      Comparable -> contains only compareTo() 
+
+            ex:
+                  interface Interface
+                  {
+                        public void m1(); //abstract method 
+                        default void m2();
+                        default void m3();
+                        {
+                        }
+                        public static void m3()
+                        {
+                        }
+                  }
