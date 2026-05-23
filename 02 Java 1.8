@@ -35,11 +35,11 @@
                   () -> s.o.p("hello");
                   (s)-> s.length();
                   (a,b) -> s.o.p(a+b);
-      2) If mulitple parameters present then these parameters should be repeted with,
+      2) If mulitple parameters present then these parameters should be repeated with,
             ex: (a,b) -> s.o.p(a+b);
       3) If only one parameter available then parenthesis are optional
                   (s)->s.lenbgth(); => s->s.length();
-      4) Usually we can specify the type of parameter of compilter expect the ty[e based on context, then we can remove type[ Type Inference}
+      4) Usually we can specify the type of parameter of compilter expect the type based on context, then we can remove type {Type Inference}
             ex:
                   (int a, int b) -> s.o.p(a+b); => (a,b)->s.o.p(a+b);
       5) Similar to method body, lamda exp body can contain any number of statements. If multiple statements are there then we should enclose within curly braces.
@@ -81,3 +81,54 @@
                         {
                         }
                   }
+
+5) Functional Interface wrt Inheritance
+      1) If an interface extends Functional Interface and child interface doesnt contain any abstract method, then child interface is always Functional Interface.
+            Ex :
+                  @FunctionalInterface
+                  interface p
+                  {
+                        public void m1(0;
+                  }
+                  @FunctionalInterface
+                  interface C extends P
+                  {
+                  }
+      2) In the child interface , we can define exactly same parent interface abstract method.
+            Ex:
+                  @FunctionalInterface
+                  interface p
+                  {
+                        public void m1();
+                  }
+                  @FunctionalInterface
+                  interface C extends P
+                  {
+                        public void m1();
+                  }
+      3) In the child interface we cant define any new abstract methods otherwise we will get Complier Exception.
+            Ex:
+                  @FunctionalInterface
+                  interface P
+                  {
+                        public void m1();
+                  }
+                  @FunctionalInterface 
+                  interface C extends P
+                  {
+                        public void m2();
+                  }
+
+             This gives compiler Exception @FunctionalInterface annotation, multiple non-overriding abstract methods found in interface 'C'
+      4)
+            Ex:
+                  @FunctionalInterface
+                  interface P
+                  {
+                        public void m1();
+                  }
+                  interface C extends P
+                  {
+                        public void m2();
+                  }
+                        
