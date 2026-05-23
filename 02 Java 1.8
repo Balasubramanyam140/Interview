@@ -2,6 +2,9 @@
 2) what is lamda exp?
 3) LAmda exp uses
 4) Functional Interface
+5) Functional Interface wrt Inheritance
+6) Code without lamda Expression and with lamda exoression
+
 1) 1.8 java why?
       1- To simplify programming.
       2- To utilize functional programming benefits in java
@@ -132,3 +135,41 @@
                         public void m2();
                   }
                         
+
+6) Code without lamda Expression and with lamda exoression
+      Without lamda Expression
+      ------------------------
+            interface Interf
+            {
+                  public void m1();
+            }
+            Class Demo implements Interf
+            {
+                  public void m1()
+                  {
+                        S.O.P("m1() method implementation");
+                  }
+            }
+            Class Test
+            {
+                  public static void main(String[] args)
+                  {
+                        Interf i = new Demo();
+                        i.m1();
+                  }
+            }
+
+      With Lamda Expression
+      ---------------------
+            interface Interf
+            {
+                  public void m1();
+            }
+            Class Test
+            {
+                  public static void main(String[] args)
+                  {
+                        Interf i = ()->S.O.P("m1() method implementation ");
+                        i.m1();
+                  }
+            }
