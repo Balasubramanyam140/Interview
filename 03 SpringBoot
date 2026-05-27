@@ -10,3 +10,8 @@
     Before designing an API, I first identify who will consume the API, whether it’s a frontend application, mobile app, 
     internal microservice, or external client. Based on that, I decide the response structure, security level, and performance 
     optimizations.”
+
+2) What is Swagger?
+    👉 Swagger is a tool used to design, document, and test APIs.
+          *  It automatically generates API documentation
+          *  It allows you to test APIs directly from UI (browser)
