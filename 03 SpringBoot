@@ -1,0 +1,12 @@
+1) What is your approach to API design?
+
+1) What is your approach to API design?
+    My approach to API design is to first understand the business use cases, then identify resources and design
+    RESTful endpoints using proper HTTP methods. I ensure consistency in request/response structure, use proper 
+    status codes, implement validation and error handling. I also consider scalability using pagination, security 
+    with authentication, and maintainability through versioning. Finally, I document the API using Swagger.”
+
+                                            or
+    Before designing an API, I first identify who will consume the API, whether it’s a frontend application, mobile app, 
+    internal microservice, or external client. Based on that, I decide the response structure, security level, and performance 
+    optimizations.”
