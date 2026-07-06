@@ -1,0 +1,77 @@
+Backend (Most Important)
+✅ Java Core
+✅ OOPs Concepts
+✅ Collections Framework
+✅ Exception Handling
+✅ Multithreading
+✅ Java 8 Features (Streams, Lambda)
+Spring Framework
+✅ Spring Boot
+✅ Spring MVC
+✅ Spring Data JPA / Hibernate
+✅ Spring Security (basic knowledge)
+✅ Dependency Injection (IoC)
+API Development
+✅ REST APIs
+✅ JSON
+✅ Postman
+✅ API Integration
+Database
+✅ SQL
+
+MySQL / PostgreSQL / Oracle
+✅ Joins
+✅ Stored Procedures (basic)
+✅ Database Design
+
+Frontend
+✅ HTML5
+✅ CSS3
+✅ JavaScript
+Good to Have:
+✅ React.js (most preferred nowadays)
+OR
+✅ Angular
+Tools
+✅ Git & GitHub
+✅ Maven
+✅ VS Code / IntelliJ IDEA
+✅ Eclipse
+Cloud & DevOps (Cloud First Mindset)
+✅ AWS or Azure Basics
+✅ Docker Basics
+✅ CI/CD Basics
+✅ Jenkins Basics
+Agile
+✅ Agile Methodology
+✅ Scrum
+✅ Jira
+
+If you want to become job-ready quickly, focus on this order:
+
+Core Java
+Spring Boot
+REST APIs
+SQL
+Git & GitHub
+React.js
+Microservices
+Docker
+AWS/Azure Basics
+
+For your current situation
+Since you already have cloud certifications and want to move into development, I would recommend learning:
+
+Java Core
+Spring Boot
+MySQL
+REST API
+React.js
+Git/GitHub
+Microservices
+
+Build 2-3 projects such as:
+
+Employee Management System
+E-Commerce Application
+Leave Management System
